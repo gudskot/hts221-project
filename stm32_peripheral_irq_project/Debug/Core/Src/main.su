@@ -1,0 +1,16 @@
+../Core/Src/main.c:89:19:HTS221_I2C_IT_Write_Reg	16	static
+../Core/Src/main.c:98:19:HTS221_I2C_IT_Read_Reg	16	static
+../Core/Src/main.c:107:19:UART_IT_Write	16	static
+../Core/Src/main.c:113:19:HTS221_Read_Temp_Coef	24	static
+../Core/Src/main.c:144:19:HTS221_Read_Humi_Coef	24	static
+../Core/Src/main.c:169:9:getTemperature	32	static
+../Core/Src/main.c:187:9:getHumidity	32	static
+../Core/Src/main.c:205:6:HAL_I2C_MasterTxCpltCallback	16	static
+../Core/Src/main.c:215:6:HAL_I2C_MasterRxCpltCallback	16	static
+../Core/Src/main.c:220:6:HAL_UART_TxCpltCallback	16	static
+../Core/Src/main.c:229:5:main	24	static
+../Core/Src/main.c:295:6:SystemClock_Config	128	static
+../Core/Src/main.c:345:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:393:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:428:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:462:6:Error_Handler	8	static,ignoring_inline_asm
